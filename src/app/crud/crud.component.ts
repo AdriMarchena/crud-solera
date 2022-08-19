@@ -39,6 +39,7 @@ export class CrudComponent implements OnChanges {
     } else {
       this.services = listServices;
     }
+    this.showForm = false;
   }
 
   onCodService(obj: Service) {
