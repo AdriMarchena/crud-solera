@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card {
+    width: 16rem;
+}
+
+.card-body-buttons {
+    margin-left: 12px;
+}
+
+.card-body-footer {
+    background-color: #F2F3F2;
+}

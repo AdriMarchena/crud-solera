@@ -1,0 +1,14 @@
+<div class="card">
+  <ul class="list-group list-group-flush">
+    <div class="card-body">
+      <h5 class="card-title">{{ objService.name }}</h5>
+      <p class="card-text">{{ objService.description }}</p>
+    </div>
+  </ul>
+  <div class="card-body card-body-footer">
+    <div class="card-body-buttons">
+      <a (click)="getCodService()" class="card-link">Editar</a>
+      <a (click)="deleteService()" class="card-link">Eliminar</a>
+    </div>
+  </div>
+</div>
